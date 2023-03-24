@@ -28,7 +28,7 @@ $this->params['breadcrumbs'][] = $this->title;
         'method' => 'get',
     ]);
 
-    $form->field($searchModel, 'lga_id')->dropDownList(
+    echo   $form->field($searchModel, 'lga_id')->dropDownList(
         $list,
         [
             'prompt' => 'SELECT All LGA',
